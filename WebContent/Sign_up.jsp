@@ -34,7 +34,8 @@ label { float: left; width: 10em; margin-right: 1em; text-align: right; }
         text-align:left
     }
 body {
-	background-image: url(preview.jpg)
+	background-image: url('./image/sign_up.jpg');
+	background-size:100% 200%;
 }
 </style>
 </head>
