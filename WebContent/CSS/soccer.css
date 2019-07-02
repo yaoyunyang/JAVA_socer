@@ -1,1 +1,11 @@
-h1,h2,h3,h4,h5,h6 {color: white; font-family:Microsoft Yahei ; font-weight :bold;background-color:rgba(0,0,0,0.3)} /* 1到6级标题统一格式：白色，微软雅黑，加粗，文字背景黑色透明度0.3*/
+h1,h2,h3,h4,h5,h6 {
+	color: white; font-family:Microsoft Yahei ; font-weight :bold;background-color:rgba(0,0,0,0.3)
+	} /* 1到6级标题统一格式：白色，微软雅黑，加粗，文字背景黑色透明度0.3*/
+list_word{
+	color:white;font-family:Microsoft Yhei;
+	background-color:rgba(46,139,87,0.3);
+	text-align: justify;
+}/*正文字体格式*/
+input:focus{
+	background: rgba(255,255,255,0.8);
+}/*文本框被选中的时候透明显示*/

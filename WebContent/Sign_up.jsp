@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -35,30 +35,31 @@ label { float: left; width: 10em; margin-right: 1em; text-align: right; }
     }
 body {
 	background-image: url('./image/sign_up.jpg');
-	background-size:100% 200%;
 }
 </style>
 </head>
 <body>
 <center><h1>用户注册</h1></center>
 	<form onsubmit="return validate()" action="/Test/Control" method = "post">
-		<center><div class=div1><label>用户名：</label> <input type="text" name = user_name value="${user_name}"><br> 
-		<label>密码： </label><input type="password" name="password"><br>
-		<label>确认密码：</label> <input type="password" name ="repassword" onblur ="if(password.value!=repassword.value) alert('两次输入的密码不一致！')"><br> 
-		<label>用户类型：</label> <select name = "user_type">
+		<div style ="text-indent:3em"><list_word>用户名：</list_word> <input type="text" name = user_name value="${user_name}"></div> 
+		<div style ="text-indent:4em"><list_word>密码：</list_word> <input type="password" name="password"></div> 
+		<div style ="text-indent:2em"><list_word>确认密码：</list_word> <input type="password" name ="repassword" onblur ="if(password.value!=repassword.value) alert('两次输入的密码不一致！')"></div>  
+		<div style ="text-indent:2em"><list_word>用户类型：</list_word> <select name = "user_type">
 			<option value="manager"><c:if test="${user_type='管理员'}">管理员</c:if></option>
 			<option value="user"><c:if test="${user_type='用户'}">用户</c:if></option>
-		</select><br> 
-		<label>性别：</label><select name = "gender"><option value=male>男</option>
-			<option value=female>女</option>
-		</select><br> 
-		<label>出生日期：</label> <input type="date" name="date_of_birth"value ="${date_of_birth}"><br> 
-		<label>感兴趣的话题：</label> <input
-			type="checkbox" name="football">足球 <input type="checkbox" name="drinking">喝酒<input
-			type="checkbox" name="girl">球色宜人<br> 
-			<label>自我介绍：</label>
-		<textarea rows=6 cols=100 vertical-align:top></textarea><br> 
-		<label><input type="submit"value ='提交'><input type="reset" value="重置"></label></div></center>
+		</select></div> 
+		<div style ="text-indent:4em"><list_word> 性别：</list_word><select name = "gender">
+		<option value=male>男</option>
+		<option value=female>女</option>
+		</select></div> 
+		<div style ="text-indent:2em"><list_word>出生日期：</list_word> <input type="date" name="date_of_birth"value ="${date_of_birth}"></div> 
+		<div><list_word>感兴趣的话题：</list_word> 
+		<input type="checkbox" name="football"><list_word>足球</list_word> 
+		<input type="checkbox" name="drinking"><list_word>喝酒</list_word>
+		<input type="checkbox" name="girl"><list_word>球色宜人</list_word></div> 
+		<div style ="text-indent:2em"><list_word>自我介绍：</list_word>
+		<textarea name = "self_intro"></textarea></div>  
+		<div style ="text-indent:4em"><input type="submit"value ='提交'><input type="reset" value="重置"></div> 
 	</form>
 </body>
 </html>
