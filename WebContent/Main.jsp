@@ -20,16 +20,14 @@ body {
 <body>
 	<div id="header" align="center">
 		<div class="header_main">
-			<a href="Welcome.jsp" class="welcome"
-				style="background-color: rgba(255, 255, 255, 0.5))"><img
-				class="logo" src="image/logo.png"
-				style="width: 200px; padding-top: 5px;"></a> <a href=""
-				class="nav" name="self" style="font-size: 200%)">个人中心</a> <a
-				href="Sign_up.jsp" class="nav" name="sign_up">注册</a> <a
-				href="Sign_in.jsp" class="nav" name="sign_in">登录</a>
+			<a href="Welcome.jsp" class="welcome"><img
+				class="logo" src="image/logo.png"></a> 
+			<a href="" class="nav" name="self" style="font-size: 200%)">个人中心</a> 
+			<a href="Sign_up.jsp" class="nav" name="sign_up">注册</a> 
+			<a href="Sign_in.jsp" class="nav" name="sign_in">登录</a>
 		</div>
 	</div>
-	<div class=parent>
+	<div class="parent">
 		<div class="item_sec">
 			<h2>置顶</h2>
 		</div>
