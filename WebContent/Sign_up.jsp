@@ -60,6 +60,7 @@ body {
 		<div style ="text-indent:2em"><list_word>自我介绍：</list_word>
 		<textarea name = "self_intro"></textarea></div>  
 		<div style ="text-indent:4em"><list_word><input type="submit"value ='提交'><input type="reset" value="重置"><list_word></div> 
+		<a href=Main.jsp><p>返回</p></a>
 	</form>
 </body>
 </html>

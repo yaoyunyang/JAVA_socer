@@ -5,10 +5,44 @@ list_word{
 	color:white;
 	font-family:Microsoft Yahei;
 	font-weight:bold;
-	background-color:rgba(46,139,87,0.3);
 	text-align: justify;
 	line-height: 2em;
 }/*正文字体格式*/
 input:focus{
 	background: rgba(255,255,255,0.8);
 }/*文本框被选中的时候透明显示*/
+p{
+	color:white;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	line-height: 1em;
+}
+a:link{
+	text-decoration:none;
+	color:lightblue;
+}
+a:visited{
+	text-decoration:none;
+	color:lightblue;
+}
+a:hover{
+	text-decoration:underline;
+	color:lightblue;
+}
+a:active{
+	text-decoration:underline;
+	color:#FC0;
+}
+a{
+
+	line-height:1em;
+}
+.nav
+{
+	color:white;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	background-color:rgba(46,139,87,0.3);
+	text-align: justify;
+	line-height: 2em;
+}
