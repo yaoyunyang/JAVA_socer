@@ -1,9 +1,6 @@
 h1,h2,h3,h4,h5,h6 {
 	color: white; font-family:Microsoft Yahei ; font-weight :bold;background-color:rgba(0,0,0,0.3)
 	} /* 1到6级标题统一格式：白色，微软雅黑，加粗，文字背景黑色透明度0.3*/
-h2{
-	text-align:center;
-}
 list_word{
 	color:white;
 	font-family:Microsoft Yahei;
@@ -45,6 +42,7 @@ a{
 	font-family:Microsoft Yahei;
 	font-weight:bold;
 	text-align: justify;
+<<<<<<< HEAD
 }/*nav类格式*/
 .parent
 {
@@ -75,3 +73,6 @@ a{
 	height:40em;
 	background-color:rgba(255,255,255,0.3);
 }
+=======
+}/*nav类格式*/
+>>>>>>> parent of eae18fa... last
