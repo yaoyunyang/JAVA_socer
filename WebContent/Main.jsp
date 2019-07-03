@@ -15,16 +15,12 @@ background-image: url(image/sign_up.jpg);
 </style>
 </head>
 <body>
-<div id="header">
+<div id="header" align="center">
     <div class="header_main">
-        <div class="header_left">
-            <a href="Main.jsp" class="logo"><img class="logo" src="image/logo.png" style="width:120px;padding-top:5px;"></a>
-            <a href="Main.jsp" class="nav" name="match">主页</a>
-            <a href="" class="nav" name="self">个人中心</a>
-        </div>
-        <div class="header_right">
-            <a href="Sign_up.jsp" class="nav">注册</a>
-        </div>
+            <a href="Welcome.jsp" class="welcome" style=(background-color:rgba(255,255,255,0.5))><img class="logo" src="image/logo.png" style="width:200px;padding-top:5px;"></a>
+            <a href="" class="nav" name="self" style=(font-size:200%)>个人中心</a>
+            <a href="Sign_up.jsp" class="nav" name="sign_up">注册</a>
+            <a href="Sign_in.jsp" class="nav" name="sign_in">登录</a>
     </div>
 </div>
 </body>

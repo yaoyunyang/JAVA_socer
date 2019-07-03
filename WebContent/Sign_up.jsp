@@ -29,10 +29,6 @@ function validate()
 </script>
 <title>sign up</title>
 <style type="text/css">
-label { float: left; width: 10em; margin-right: 1em; text-align: right; }
-.div1{
-        text-align:left
-    }
 body {
 	background-image: url('./image/sign_up.jpg');
 }
@@ -60,7 +56,7 @@ body {
 		<div style ="text-indent:2em"><list_word>自我介绍：</list_word>
 		<textarea name = "self_intro"></textarea></div>  
 		<div style ="text-indent:4em"><list_word><input type="submit"value ='提交'><input type="reset" value="重置"><list_word></div> 
-		<a href=Main.jsp><p>返回</p></a>
+		<a href=Main.jsp class="nav">返回</a>
 	</form>
 </body>
 </html>
