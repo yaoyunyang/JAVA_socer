@@ -9,6 +9,7 @@
 <style type="text/css">
 body {
 	background-image: url('./image/sign_up.jpg');
+	background-attachment:fixed;
 }
 </style>
 </head>

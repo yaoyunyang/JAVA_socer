@@ -11,6 +11,7 @@
 <style type="text/css">
 body{
 background-image: url(image/sign_up.jpg);
+background-attachment:fixed;
 }
 </style>
 </head>
@@ -22,6 +23,8 @@ background-image: url(image/sign_up.jpg);
             <a href="Sign_up.jsp" class="nav" name="sign_up">注册</a>
             <a href="Sign_in.jsp" class="nav" name="sign_in">登录</a>
     </div>
+</div>
+<div><li></li>
 </div>
 </body>
 </html>

@@ -31,6 +31,7 @@ function validate()
 <style type="text/css">
 body {
 	background-image: url('./image/sign_up.jpg');
+	background-attachment:fixed;
 }
 </style>
 </head>
@@ -57,6 +58,7 @@ body {
 		<textarea name = "self_intro"></textarea></div>  
 		<div style ="text-indent:4em"><list_word><input type="submit"value ='提交'><input type="reset" value="重置"><list_word></div> 
 		<a href=Main.jsp class="nav">返回</a>
+		
 	</form>
 </body>
 </html>
