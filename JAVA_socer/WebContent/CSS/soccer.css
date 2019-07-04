@@ -1,0 +1,65 @@
+h1,h2,h3,h4,h5,h6 {
+	color: white; font-family:Microsoft Yahei ; font-weight :bold;background-color:rgba(0,0,0,0.3)
+	} /* 1到6级标题统一格式：白色，微软雅黑，加粗，文字背景黑色透明度0.3*/
+list_word{
+	color:white;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	text-align: justify;
+	line-height: 2em;
+	border-radius: 6px;
+}/*正文字体格式*/
+input:focus{
+	background: rgba(255,255,255,0.8);
+}/*文本框被选中的时候透明显示*/
+p{
+	color:white;
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	line-height: 1em;
+}
+a:link{
+	text-decoration:none;
+	color:lightblue;
+}
+a:visited{
+	text-decoration:none;
+	color:lightblue;
+}
+a:hover{
+	text-decoration:underline;
+	color:lightblue;
+}
+a:active{
+	text-decoration:underline;
+	color:#FC0;
+}
+a{
+
+	line-height:1em;
+}/*超链接格式*/
+.nav
+{
+	font-family:Microsoft Yahei;
+	font-weight:bold;
+	text-align: justify;
+}/*nav类格式*/
+.parent
+{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:center;
+	align-items:flex-start;
+}
+.item_main
+{
+	width:35em;
+	height:40em;
+	background-color:rgba(255,255,255,0.4);
+}
+.item_sec
+{
+	width:20em;
+	height:40em;
+	background-color:rgba(255,255,255,0.3);
+}
