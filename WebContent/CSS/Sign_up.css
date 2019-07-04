@@ -6,7 +6,6 @@
 	flex-basis:20em;
 }
 list_word{
-	line-height:2em;
 	text-align:right;
 }
 .huge{
@@ -15,4 +14,12 @@ list_word{
 	justify-content:center;
 	margin:auto;
 	flex-basis:2em;
+}
+.ta{
+	border:0px;
+	background:rgba(255,255,255,0.3);
+	border-radius:5px;
+}
+.cb{
+	
 }
