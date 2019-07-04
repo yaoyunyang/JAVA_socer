@@ -16,7 +16,6 @@ background-attachment:fixed;
 </style>
 </head>
 <body>
-<<<<<<< HEAD
 	<div id="header" align="center">
 		<div class="header_main">
 			<a href="Welcome.jsp" class="welcome"><img
@@ -37,7 +36,6 @@ background-attachment:fixed;
 			<h2>我在贴吧</h2>
 		</div>
 	</div>
-=======
 <div id="header" align="center">
     <div class="header_main">
             <a href="Welcome.jsp" class="welcome" style=(background-color:rgba(255,255,255,0.5))><img class="logo" src="image/logo.png" style="width:200px;padding-top:5px;"></a>
@@ -46,8 +44,5 @@ background-attachment:fixed;
             <a href="Sign_in.jsp" class="nav" name="sign_in">登录</a>
     </div>
 </div>
-<div><li></li>
-</div>
->>>>>>> parent of eae18fa... last
 </body>
 </html>
